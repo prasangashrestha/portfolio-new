@@ -44,8 +44,19 @@ input[class^="btn-"]:hover {
 .py-4 {
   padding: 4rem 0; }
 
+.bg-light {
+  background: #f4f4f4;
+  color: #333; }
+
 .text-center {
   text-align: center; }
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }
 
 * {
   margin: 0;
@@ -105,3 +116,21 @@ img {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
+
+.specials {
+  display: flex; }
+
+i {
+  color: #ffbc00; }
+
+#about .about-info {
+  display: flex; }
+
+#about .bio-image {
+  flex: 28%; }
+
+#about .bio {
+  flex: 72%;
+  height: 12.4rem;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem; }

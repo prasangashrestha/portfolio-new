@@ -60,6 +60,22 @@ input[class^="btn-"]:hover {
   }
 }
 
+// Backgrounds
+.bg {
+  &-light {
+    background: $light-color;
+    color: $dark-color;
+  }
+}
+
 .text-center {
   text-align: center;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
 }

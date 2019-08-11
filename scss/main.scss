@@ -96,3 +96,32 @@ img {
   //     border-bottom: 3px solid $main-color;
   //   }
 }
+
+.specials {
+  display: flex;
+}
+
+i {
+  color: $main-color;
+}
+
+// About
+#about {
+  // About A
+
+  .about-info {
+    display: flex;
+  }
+
+  // Grid Area
+  .bio-image {
+    flex: 28%;
+  }
+
+  .bio {
+    flex: 72%;
+    height: 12.4rem;
+    border-left: 3px solid $main-color;
+    padding: 0.8rem;
+  }
+}
