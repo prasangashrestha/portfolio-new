@@ -66,6 +66,11 @@ input[class^="btn-"]:hover {
     background: $light-color;
     color: $dark-color;
   }
+
+  &-dark {
+    background: $dark-color;
+    color: $light-color;
+  }
 }
 
 .text-center {
