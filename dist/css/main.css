@@ -280,6 +280,9 @@ img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%); }
+    .item-text-wrap a {
+      color: white;
+      margin-right: 10px; }
   .item-text-title {
     font-size: 2rem;
     padding: 0 1rem;
@@ -313,7 +316,7 @@ img {
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
@@ -341,5 +344,10 @@ img {
     display: none; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  #contact-b .contact-info {
+    display: flex;
+    flex-direction: column; }
+    #contact-b .contact-info div {
+      padding-bottom: 20px; }
   #main-footer .footer-content {
     flex-direction: column; } }

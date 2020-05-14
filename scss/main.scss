@@ -337,6 +337,11 @@ img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+
+    a{
+      color: white;
+      margin-right: 10px;
+    }
   }
 
   &-text-title{
