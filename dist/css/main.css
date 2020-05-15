@@ -158,9 +158,13 @@ img {
 #about .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 0.9rem; }
+  padding: 4rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: left; }
   #about .bio h4 {
-    margin-bottom: 8px; }
+    margin-bottom: 20px;
+    text-align: center; }
 
 #about .skill-1 {
   grid-area: aw1;
@@ -168,7 +172,8 @@ img {
 
 #about .skill-2 {
   grid-area: aw2;
-  color: blue; }
+  color: blue;
+  margin-left: 100px; }
 
 #about .skill-3 {
   grid-area: aw3;
@@ -180,7 +185,8 @@ img {
 
 #about .skill-5 {
   grid-area: aw5;
-  color: lawngreen; }
+  color: lawngreen;
+  margin-left: 100px; }
 
 #about .skill-6 {
   grid-area: aw6;
@@ -340,8 +346,8 @@ img {
     grid-template-columns: 1fr; }
   #about .about-info {
     grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3' 'aw4' 'aw5' 'aw6'; }
-  #about img {
-    display: none; }
+    #about .about-info .skill-2, #about .about-info .skill-5 {
+      margin: 0; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #contact-b .contact-info {
